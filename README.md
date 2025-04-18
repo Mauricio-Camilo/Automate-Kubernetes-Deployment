@@ -112,14 +112,12 @@ Ansible, Terraform, Kubernetes, AWS EKS, Python, Linux
   ```
   The service URL can be accessed in the browser to confirm that NGINX is running correctly.
 
-  ![Diagram](./images/image3.png)  
-
 - Simplifying Kubeconfig Management
 
-To simplify the playbook, the kubeconfig path can be exported as an environment variable:
+  To simplify the playbook, the kubeconfig path can be exported as an environment variable:
 
   ```sh
     export K8S_AUTH_KUBECONFIG=/home/mauricio/Documentos/kubeconfig_myapp-eks-cluster
   ```
-This way, the playbook doesn’t need to explicitly define the kubeconfig path, making the code cleaner and more maintainable.
+  This way, the playbook doesn’t need to explicitly define the kubeconfig path, making the code cleaner and more maintainable.
 
